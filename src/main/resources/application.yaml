@@ -1,0 +1,10 @@
+#spring:
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    producer:
+#      properties:
+#        producer.interceptor.classes: io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor
+#
+#    consumer:
+#      properties:
+#        consumer.interceptor.classes: io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor
